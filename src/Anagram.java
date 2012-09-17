@@ -1,9 +1,9 @@
 /**
  * Created with IntelliJ IDEA.
- * User: trevoradams
+ * User: Trevor Adams
  * Date: 17/09/2012
  * Time: 20:21
- * To change this template use File | Settings | File Templates.
+ *
  */
 
 import java.io.*;

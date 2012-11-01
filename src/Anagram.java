@@ -12,7 +12,7 @@ import java.util.*;
 public class Anagram {
     public static void main(String args[]){
 
-        String check = "tinsel";
+        String check = "listen";
         String checkSorted = sortString(check);
         StringBuffer results = new StringBuffer(check);
 
@@ -36,7 +36,7 @@ public class Anagram {
 
     private static String sortString(String unsorted){
         char[] content = unsorted.toCharArray();
-        java.util.Arrays.sort(content);
+        Arrays.sort(content);
         return new String(content);
     }
 }
